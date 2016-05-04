@@ -97,6 +97,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     rack (1.6.4)
@@ -197,6 +200,7 @@ DEPENDENCIES
   jquery-rails
   machinist (= 2.0)
   mysql2 (~> 0.3.18)
+  pry-byebug
   pry-rails
   rails (= 4.2.3)
   response_code_matchers
